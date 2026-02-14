@@ -30,5 +30,5 @@ Planned full stack project using Spring Boot + React.
 ________________________________________
 📫 Contact
 📧 Email: deepasuba313@gmail.com
-🔗 LinkedIn: Add your LinkedIn link
+🔗 LinkedIn:https://www.linkedin.com/in/s-deepavarthini-5755682a5/
 💻 GitHub: https://github.com/deepasuba313-svg
