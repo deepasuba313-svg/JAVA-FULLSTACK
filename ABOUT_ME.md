@@ -1,6 +1,4 @@
 # JAVA-FULLSTACK
-Computer Science student | Full Stack Java Developer (in progress) | IoT &amp; Cloud Enthusiast.
-JAVA-FULLSTACK
 👩‍💻 Deepavarthini Sakthivel
 Computer Science Student | Aspiring Full Stack Java Developer | IoT & Cloud Enthusiast
 ________________________________________
