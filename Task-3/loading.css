@@ -1,0 +1,50 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black; 
+    height: 100vh;
+    width: 100vw; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loading {
+    background-color: transparent;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border-bottom: 5px solid green;
+    animation: loading 1s ease-in-out infinite;
+
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+p{
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 15px;
+}

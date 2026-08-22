@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding: 5px;
+}
+
+.container {
+    background-color: black;
+    display: flex;
+    padding: 5px 15px;
+    width: 1000px;
+}
+
+
+
+h3 {
+    background-color: aqua;
+    height: 25px;
+    width: 150px;
+    margin: 5px;
+}
+
+/* Mobile Design */
+@media (max-width:400px) {
+    body {
+        background-color: blue;
+    }
+    .container{
+        background-color: green;
+        display: flex;
+       flex-direction: column;
+    }
+    
+}
+
+/* Tab design */
+@media (min-width:400px) and (max-width:800px) {
+    body {
+        background-color: rgb(255, 0, 157);
+    }
+    .container{
+        background-color: red;
+        display: flex;
+       flex-direction: column;
+    }
+    
+}
+
+
+

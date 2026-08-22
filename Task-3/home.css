@@ -1,0 +1,21 @@
+.heading{
+    color:darkblue;
+}
+
+.bodyclass{
+    background-color: azure;
+    background-image: url("https://img.freepik.com/premium-photo/colorful-background-with-colorful-background_889227-11578.jpg?w=2000");
+}
+
+#audioh{
+    color:blueviolet;
+    font-style:inherit;
+    direction: ltr;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.org{
+    border-radius: 30px;
+    border-color: blue;
+    border-width: 10px;
+}

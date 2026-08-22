@@ -1,0 +1,35 @@
+.bodyclass{
+    background-image: url("https://cdn.pixabay.com/photo/2021/02/07/22/04/blue-5992940_1280.png");
+}
+
+.logo{
+    color: orangered;
+    display: inline;
+    margin-left: 10px;
+}
+
+.heading{
+    color: white;
+    display: inline;
+    margin-left: 60px;
+    border: solid crimson;
+    border-radius: 20px; 
+    background-color:crimson;
+    
+    
+}
+.heading :hover {
+  color:beige;
+}
+
+.formid input[type="button"] 
+{
+    background-color:orangered;
+    color:black;
+    border: solid cornflowerblue;
+    border-radius: 20px;  
+}
+
+.formid input[type="button"]:hover {
+   color:lightgray;
+}
