@@ -1,0 +1,32 @@
+h1{
+   text-shadow: 3px 3px 5px red,-3px -3px 5px blueviolet;
+    
+}
+
+
+
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    box-shadow: 3px 3px 5px blue ;
+}
+
+body {
+    margin: 100px;
+}
+.box{
+    border: 2px solid;
+    font-size: 70px;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+}
+#box2 {
+    background-color: red;
+    margin-left: auto;
+}
+
+#box3{
+    background-color: blue;
+}

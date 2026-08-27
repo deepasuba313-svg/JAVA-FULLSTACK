@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="index.php" method="post" onsubmit="return alertmsg()" >
+        <label for="username">Username </label>
+        <input type="text" name="" id="username" minlength="12" maxlength="90" placeholder="Ex: Zhang Ming" >
+        <br> <br>
+        <label for="Password">Password  </label>
+        <input type="password" id="Password" minlength="6" maxlength="12" placeholder="Ex: Ad78451$%^" required>
+         <br><br>
+         
+         <label for="radiobtn">Title</label>
+         <input type="radio"  id="radiobtn" name="title">
+         <label for="mr">Mr</label>
+         <input type="radio"  id="radiobtn" value="mrs"name="title">
+         <label for="mrs" >Mrs</label>
+        <br><br>
+
+        <label for="payment">Payment</label>
+        <input type="checkbox" name="payment_method" id="payment">
+
+        <label for="Visa">Visa</label>
+
+        <input type="checkbox" name="payment_method" id="payment">
+
+        <label for="UPI">UPI</label>
+
+        <br><br>
+
+        <label for="Dept">Dept</label>
+        <select name="" id="Dept" >
+            <option value="CSE">CSE</option>
+            <option value="EEE">EEE</option>
+            <option value="ECE">ECE</option>
+            <option value="EI">EI</option>
+        </select>
+<br><br>
+
+        <label for="submit" ></label>
+        <input type="submit" onclick="alertmsg()">
+       
+        <label for="Reset"></label>
+        <input type="reset" >
+
+
+        <script>
+            function alertmsg()
+            {
+                alert("Submitted Successfully");
+            }
+        </script>
+    </form>
+</body>
+</html>

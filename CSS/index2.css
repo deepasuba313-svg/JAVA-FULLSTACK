@@ -1,0 +1,16 @@
+@font-face {
+    font-family: PlayfairDisplay;
+    src: url(fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+     font-display: fallback;
+}
+h1{
+    font-family: Verdaa, Genea, Tahoa, sans-serif;
+}
+
+p{
+    font-weight: lighter;
+    font-size: larger;
+
+   
+    font-family: PlayfairDisplay;
+}
