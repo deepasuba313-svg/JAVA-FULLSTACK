@@ -1,7 +1,19 @@
-body{
-    background-image: url(https://th.bing.com/th/id/OIP.w8yKlig3oJcbupSCmAx6pwHaE8?w=214&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
+#container{
+    border: 2px solid;
+}
+
+#container  p{
+    background-color: yellow;
+}
+
+#container>p{
+    background-color: rgb(180, 180, 78);
+}
+
+#container~p{
+    background-color: rgb(95, 42, 96);
+}
+
+#container + p{
+    background-color: rgb(44, 201, 107);
 }
