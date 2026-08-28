@@ -1,20 +1,7 @@
-#box1{
-    width: 200px;
-    height: 200px;
-    background-color: rgb(65, 100, 130);
-    position:sticky;
-    top: 0px;
-    left: 0px;
-   
-}
-
-
-#box2{
-    width: 100px;
-    height: 100px;
-    background-color: rgb(177, 148, 42);
-    position:static;
-   top:50px;
-   left:50px;
-   
+body{
+    background-image: url(https://th.bing.com/th/id/OIP.w8yKlig3oJcbupSCmAx6pwHaE8?w=214&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
