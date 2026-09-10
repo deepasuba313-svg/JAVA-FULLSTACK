@@ -1,3 +1,9 @@
-li:nth-child(4n+2){
-    background-color: aqua;
+#greeting p{
+    background-color: aquamarine;
+    padding: 10px;
+    display: none;
+}
+
+#greeting:hover p{
+    display: block;
 }
